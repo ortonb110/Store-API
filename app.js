@@ -1,6 +1,7 @@
 const express = require('express');
 const app = express();
-require
+require('dotenv').config();
+//async errors
 //Setting up JSON middleware
 app.use(express.json());
 
